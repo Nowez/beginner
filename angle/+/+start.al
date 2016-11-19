@@ -8,6 +8,6 @@
   text/add = "Hello"(color:gray,size:42,font:comic-sans)-
 
   pic/bg = "C:\applz"(color:standard).
-  .bg = (script/movement(x,y,z(.))).
-  .movement = (movement2/time)
+  .bg = (script/movement(x,y,z(,))).
+  .movement = (movement2/time(set(time)))
   ]
