@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* { box-sizing:border-box; -moz-box-sizing:border-box; }
+body { background:#FFF (images/bg2.png); margin:0; padding:0; }
+html { margin:0; padding:0; }
+
+/* Container */
+
+#container { width:1300px; color:#1C1C1C; margin:20px; padding:0 0px; }
+
+/* Headers and Text */
+
+h1 { font-size:3em; margin:0 0 30px 0; text-align:center; color:#00FF3C;font-family:SinkinSans-200XLight-webfont, sans-serif; text-shadow #000 0 2px}
+h2 { font-size:1.5em; width:850px; margin:0 auto 20px auto; font-family:SinkinSans-200XLight-webfont, sans-serif ;}
+h3 { font-size:2em; margin:0 0 30px 0; text-align:center; color:#00FF3C; font-family:SinkinSans-200XLight-webfont, sans-serif ;}
+
+.teller { margin:0 auto 20px auto; width:850px; color:#ccc; font-family:SinkinSans-200XLight-webfont, sans-serif ;}
+
+.nobullet { list-style:none; width:850px; margin:0 auto 20px auto; padding:0; font-family:SinkinSans-200XLight-webfont, sans-serif ;}
+
+.infotext { margin:0 auto 20px auto; width:850px; color:#FF004D; font-family:SinkinSans-200XLight-webfont, sans-serif ;}
+
+.games { margin:0 auto 20px auto; width:850px; color:#FFAB00; font-size:100px; font-family:SinkinSans-200XLight-webfont, sans-serif ;}
+
+.pvp { margin:0 auto 20px auto; width:850px; color:#FFCD00; font-size:80px; font-family:SinkinSans-200XLight-webfont, sans-serif ;}
+
+.start { margin:0 auto 20px auto; width:850px; color:#FFB700; font-size:10px; font-family:SinkinSans-200XLight-webfont, sans-serif ;}
+
+.sel { margin:0 auto 20px auto; width:850px; color:#00BCFF; font-size:10px; font-family:SinkinSans-200XLight-webfont, sans-serif ;}
+/* Navigation */
+
+#nav { background:#000; margin:0 0 20px 0; }
+#nav ul { list-style:none; margin:0; padding:0px 30px; text-align:center; }
+#nav ul li { display:inline-block; }
+#nav ul li a { color:#00BCFF; text-decoration:none; padding:10px 20px; display:inline-block; font-family:SinkinSans-200XLight-webfont, sans-serif ;}
+#nav ul li a:hover { color:#0095FF; background:#000; font-family:SinkinSans-200XLight-webfon0095FFt, sans-serif ;}
+
+#gnav { background:#fff; margin:0 0 20px 0; }
+#gnav { list-style:none; margin:0; padding:0px 0px; text-align:left; }
+#gnav { color:#FFB300; padding:10px 20px; display:inline-block; font-family:SinkinSans-200XLight-webfont, sans-serif ;}
+#gnav :hover { color:#FF5E00; background:#fff; font-family:SinkinSans-200XLight-webfont, sans-serif ;}
+
+#sel { color:#FFB300; padding:10px 20px; display:inline-block; font-family:SinkinSans-200XLight-webfont, sans-serif ;}
+#sel :hover { color:#FF5E00; background:#fff; font-family:SinkinSans-200XLight-webfont, sans-serif ;}
+
